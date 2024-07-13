@@ -1,0 +1,14 @@
+@import "null.scss";
+
+@mixin flexible () {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+@mixin absolute-centering() {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
